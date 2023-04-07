@@ -80,4 +80,42 @@
 
 //   COMICS PAGE
 
+.comics {
+    padding: 3rem 0;
+  
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+  
+    .card {
+      background: #fff;
+      border: none;
+      margin-bottom: 2rem;
+      transition: all .3s ease;
+  
+      &:hover {
+        transform: translateY(-10px);
+      }
+  
+      .card-img-top {
+        height: 300px;
+        object-fit: cover;
+      }
+  
+      .card-body {
+        padding: 1rem;
+  
+        h3 {
+          font-size: 1.5rem;
+          margin-bottom: 1rem;
+        }
+  
+        p {
+          font-size: 1rem;
+          color: #6c757d;
+        }
+      }
+    }
+  }
 
