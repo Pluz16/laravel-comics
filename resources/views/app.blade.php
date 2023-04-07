@@ -30,6 +30,21 @@
             </div>
         </nav>
     </header>
+
+    <main>
+        <div class="container">
+            @yield('content')
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <hr>
+            <p>&copy; 2023 example.com</p>
+        </div>
+    </footer>
+
+    <script src="{{ mix('js/app.js') }}"></script>
     
 </body>
 </html>
